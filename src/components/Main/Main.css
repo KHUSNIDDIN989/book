@@ -1,0 +1,40 @@
+.main {
+  width: 100%;
+  height: 66px;
+  position: relative;
+  border-bottom: 1px solid #eeeeee;
+}
+.main .main-result {
+  position: absolute;
+  top: 20px;
+  left: 305px;
+}
+.main .main-result span {
+  color: red;
+  background: rgba(0, 0, 0, 0.124);
+  border-radius: 20px;
+  padding: 3px 5px;
+}
+.main .main-calendar {
+  position: absolute;
+  right: 40px;
+  top: 15px;
+  width: 165px;
+  height: 34px;
+  background: #a6b0c3;
+  border-radius: 4px;
+}
+.main .main-calendar .main-calendar__img {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.main .main-calendar p {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
